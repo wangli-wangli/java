@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/****四则运算题目表格(<table>)****/
+.box{
+	margin-top: 50px;
+}
+/****结果输入框(<input>)****/
+.result{
+	width: 60px;
+	padding: 5px;
+	border:none;
+	font-size:20px;
+	border-bottom: solid yellowgreen 5px;
+	text-align:center;
+}
+/****题目(<td>)****/
+.expr{
+	font-size: x-large;
+}
+
+/****非分数/运算符(<div>)*****/
+.nomal{
+	text-align:center;
+	float:left;
+	position: relative;
+	top: 16px;
+	margin-left: 3px;
+	margin-right: 3px;
+	width="20px"
+}
+
+/****分数(<div>)****/
+.fraction{
+	text-align:center;
+	float: left;
+	margin-left:3px;
+	margin-right: 3px;
+	width="20px"
+}
+
+/****题目选择*****/
+.option{
+	text-align: center;
+}
+/******你准备好了吗？按钮******/
+.submit1{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background:yellow;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+/*****提交按钮*****/
+.submit{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	background: cornflowerblue;
+	border: none;
+	cursor: pointer;
+	color:lightyellow;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 20px;
+}
+/******计时器*******/
+.timer{
+	position:fixed;
+	top: 10px;
+	right: 10px;
+	border: none;
+	width:50px;
+	text-align: right;
+	background: none;
+}
+.pause{
+	position:fixed;
+	top: 30px;
+	right: 10px;
+}
+/****题目选项****/
+.option{
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	margin-top: 130px;
+	border:dashed #9ACD32 2px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+/****答题按钮*****/
+
+
